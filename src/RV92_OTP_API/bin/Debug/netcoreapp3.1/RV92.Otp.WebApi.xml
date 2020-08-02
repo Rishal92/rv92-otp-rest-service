@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RV92.Otp.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:RV92.Otp.WebApi.Controllers.OtpController.SendOtp(System.String)">
+            <summary>
+            Sends an OTP sms to the provided cell number and provides you with a message identifier.
+            </summary>
+            <remarks>
+            Sample request:<br/><br/>
+            recipientMobileNumber = +27720720722
+            
+            </remarks>
+            <param name="recipientMobileNumber"></param>
+            <returns>A newly created TodoItem</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request Error</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:RV92.Otp.WebApi.Controllers.OtpController.ValidateOtp(System.String,System.String)">
+            <summary>
+            Validates an OTP request against the message identifier.
+            </summary>
+            <remarks>
+            Sample request:<br/><br/>
+            messageId = 33a48194a50644fea15589d7068aaa00<br/>
+            otp = d1PVj4
+            
+            </remarks>
+            <param name="messageId"></param>
+            <param name="otp"></param>
+            <returns>A newly created TodoItem</returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request Error</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:RV92.Otp.WebApi.Infrastructure.Installers.RegisterContainer">
+            <summary>
+            Configure Dependency Injection
+            </summary>
+        </member>
+        <member name="M:RV92.Otp.WebApi.Infrastructure.Installers.RegisterContainer.RegisterModules(Autofac.ContainerBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>

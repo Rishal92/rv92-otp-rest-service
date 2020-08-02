@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RV92.Otp.WebApi", "RV92_OTP_API\RV92.Otp.WebApi.csproj", "{BFA1361C-BCF0-48C4-97B2-C52ABAAB0589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3143889C-9836-4888-836E-5C9AF0B63F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RV92.Otp.Api.Domain", "RV92_OTP_API_Domain\RV92.Otp.Api.Domain.csproj", "{29DF6BA9-F12B-4582-8D3F-248A4E345C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RV92.Otp.Api.Service", "RV92_OTP_API_Service\RV92.Otp.Api.Service.csproj", "{B87D638D-75DD-4FE6-B98B-A716BAB119BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA1361C-BCF0-48C4-97B2-C52ABAAB0589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA1361C-BCF0-48C4-97B2-C52ABAAB0589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA1361C-BCF0-48C4-97B2-C52ABAAB0589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA1361C-BCF0-48C4-97B2-C52ABAAB0589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DF6BA9-F12B-4582-8D3F-248A4E345C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DF6BA9-F12B-4582-8D3F-248A4E345C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DF6BA9-F12B-4582-8D3F-248A4E345C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DF6BA9-F12B-4582-8D3F-248A4E345C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87D638D-75DD-4FE6-B98B-A716BAB119BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87D638D-75DD-4FE6-B98B-A716BAB119BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87D638D-75DD-4FE6-B98B-A716BAB119BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87D638D-75DD-4FE6-B98B-A716BAB119BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29DF6BA9-F12B-4582-8D3F-248A4E345C36} = {3143889C-9836-4888-836E-5C9AF0B63F7E}
+		{B87D638D-75DD-4FE6-B98B-A716BAB119BB} = {3143889C-9836-4888-836E-5C9AF0B63F7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A573E4C-177F-43E0-A215-517B740CB484}
+	EndGlobalSection
+EndGlobal

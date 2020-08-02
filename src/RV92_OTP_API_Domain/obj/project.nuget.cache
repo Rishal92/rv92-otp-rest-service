@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MwRHeJx27Ksy0pND+Y81S2MM9phQoPPiOS+KNt12L3awyi0mJuHcN6Y6HJsqtYvxfy8hJrpi4yStEkCCWJBt0w==",
+  "success": true,
+  "projectFilePath": "T:\\RV92_GitHub\\rv92-otp-rest-service\\src\\RV92_OTP_API_Domain\\RV92.Otp.Api.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rishalva\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
