@@ -49,6 +49,6 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 
 ## Acknowledgments
 
-The inspiration came from having to integrate with a OTP Service provider and I though... 
+The inspiration came from having to integrate with a OTP Service provider and I thought... 
 "Hey how hard could it be?".
 A lot more can be added to this solution to make it a functional product with OTP expires and better auditing but this is where I started.
