@@ -14,4 +14,3 @@ T:\RV92_GitHub\rv92-otp-rest-service\src\RV92_OTP_API_Domain\obj\Debug\netcoreap
 T:\RV92_GitHub\rv92-otp-rest-service\src\RV92_OTP_API_Domain\obj\Debug\netcoreapp3.1\RV92.Otp.Api.Domain.csproj.CoreCompileInputs.cache
 T:\RV92_GitHub\rv92-otp-rest-service\src\RV92_OTP_API_Domain\obj\Debug\netcoreapp3.1\RV92.Otp.Api.Domain.dll
 T:\RV92_GitHub\rv92-otp-rest-service\src\RV92_OTP_API_Domain\obj\Debug\netcoreapp3.1\RV92.Otp.Api.Domain.pdb
-T:\RV92_GitHub\rv92-otp-rest-service\src\RV92_OTP_API_Domain\obj\Debug\netcoreapp3.1\RV92.Otp.Api.Domain.csprojAssemblyReference.cache
