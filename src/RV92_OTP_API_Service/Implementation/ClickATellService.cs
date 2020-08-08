@@ -37,8 +37,7 @@ namespace RV92.Otp.Api.Service.Implementation
             
             request.AddHeader("Content-Type", "application/json");
             request.AddHeader("Accept", "application/json");
-            request.AddHeader("Authorization", "WJKSKNPJQjCK7pnfXTO_ow=="); //ToDo: Register on ClickATell and get your key - https://portal.clickatell.com/ 
-            //WJKSKNPJQjCK7pnfXTO_ow==	############################
+            request.AddHeader("Authorization", "############################"); //ToDo: Register on ClickATell and get your key - https://portal.clickatell.com/
 
             var payload = new SmsRequest {Messages = new List<MessageRequest>()};
 
