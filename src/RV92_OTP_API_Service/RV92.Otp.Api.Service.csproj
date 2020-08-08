@@ -13,4 +13,8 @@
     <ProjectReference Include="..\RV92_OTP_API_Domain\RV92.Otp.Api.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+  </ItemGroup>
+
 </Project>
