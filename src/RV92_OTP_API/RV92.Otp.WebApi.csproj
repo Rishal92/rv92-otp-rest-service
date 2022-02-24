@@ -9,8 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="5.2.0" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
@@ -22,6 +20,10 @@
   <ItemGroup>
     <ProjectReference Include="..\RV92_OTP_API_Domain\RV92.Otp.Api.Domain.csproj" />
     <ProjectReference Include="..\RV92_OTP_API_Service\RV92.Otp.Api.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructure\Installers\" />
   </ItemGroup>
 
 

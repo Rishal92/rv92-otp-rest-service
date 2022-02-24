@@ -8,7 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;// Configure Dependency Injection
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using RV92.Otp.WebApi.Infrastructure.Installers;
+using RV92.Otp.Api.Service.Implementation;
+using RV92.Otp.Api.Service.Interface;
 
 namespace RV92.Otp.WebApi
 {
@@ -54,6 +55,8 @@ namespace RV92.Otp.WebApi
                 o.IdleTimeout = TimeSpan.FromDays(1);
             });
 
+            services.AddScoped<IClickATellService, ClickATellService>();
+
             services.AddMvc();
         }
 
@@ -88,12 +91,6 @@ namespace RV92.Otp.WebApi
             {
                 c.SwaggerEndpoint("v1/swagger.json", "OTP API v1");
             });
-        }
-
-        // Configure Dependency Injection
-        public virtual void ConfigureContainer(ContainerBuilder builder)
-        {
-            RegisterContainer.RegisterModules(builder);
         }
     }
 }
