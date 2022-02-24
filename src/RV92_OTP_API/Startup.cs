@@ -1,7 +1,6 @@
 using System;
 using System.IO;
 using System.Reflection;
-using Autofac;// Configure Dependency Injection: factory pattern
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
